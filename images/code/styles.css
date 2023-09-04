@@ -1,0 +1,167 @@
+.desktop {
+    width: 1440px;
+    height: 1024px;
+    padding: 0 0 103px;
+    background-color: #fff;
+  }
+  
+  .header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+  
+  .menu-item {
+    cursor: pointer;
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+  
+  .search {
+    display: flex;
+  }
+  
+  .icon {
+    background-color: #ccc;
+    border-radius: 50%;
+    height: 25px;
+    margin-left: 5px;
+    width: 25px;
+  }
+  
+  
+  
+  
+  
+  /* Style for the payment form container */
+  .payment-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Style for the shoe details section */
+  .shoe-details {
+    width: 30%;
+  }
+  
+  .shoe-details h2 {
+    margin-top: 0;
+  }
+  
+  .shoe-details p {
+    margin: 10px 0;
+  }
+  
+  /* Style for the credit card details section */
+  .credit-card-details {
+    width: 60%;
+  }
+  
+  .credit-card-details h2 {
+    margin-top: 0;
+  }
+  
+  .credit-card-details form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .credit-card-details .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .credit-card-details .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .credit-card-details input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .credit-card-details button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .credit-card-details button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Style for the shipping information section */
+  .shipping-details {
+    width: 100%;
+  }
+  
+  .shipping-details h2 {
+    margin-top: 0;
+  }
+  
+  .shipping-details form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .shipping-details .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .shipping-details .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .shipping-details input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .shipping-details button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .shipping-details button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  

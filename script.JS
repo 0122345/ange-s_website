@@ -12,6 +12,27 @@ $(document).ready(function() {
   });
 });
 
+//searchbar
+
+const searchBar = document.forms['search'].querySelector('input');
+searchBar.addEventListener('onclick',function(erre){
+  const term = erre.target.value.toLowerCase();
+  const searches = list.getElementById('li');
+  Array.from(searches).forEach(function(searches) {
+    const title = searches.firstElementChild.textContent;
+    if(title.toLowerCase().indexOf(searches) != -1){
+      search.style.display = 'block';
+    } 
+    else {
+      books.style.display = 'none';
+    }
+  })
+})
+
+
+
+
+
 
 
 function validate(){

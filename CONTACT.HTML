@@ -31,18 +31,18 @@
 
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="contact.css">
-        <script src="script.JS"></script>
+        <script src="script.JS" defer></script>
       </head>
       
       <body>
  
-  <section id="landing-page" class="flex flex-row top:0 space-x-4 mb-12 w-2/3 h-12">
+  <section id="landing-page" class="flex flex-row top:24 space-x-4 mb-12 w-full h-full ">
     <nav class="navbar navbar-expand-lg sticky-top bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="images/Nike logo.svg" alt="" srcset="" width="50px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span style="color: white;" class="navbar-toggler-icon"></span>
+          <span style="background-color: white;" class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -72,13 +72,13 @@
           </ul>
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="btn btn-outline-light me-2" href="CONTACT.HTML">Contact Me</a>
+              <a class="btn btn-outline-light me-2" href="contact.html">Contact Me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>      
-  <div class="container">
+  <div class="container" class="text-white">
       <div class="row">
         <div class="col-12">
           <nav class="navbar navbar-expand-lg navbar-light bg-light ">
@@ -126,7 +126,7 @@
               </div>
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-success" type="submit" onclick="erre()">Search</button>
               </form>
             </div>
           </nav>
@@ -138,7 +138,7 @@
 
 
 
-    <div class="flex flex-row space-x-7 p-7">
+    <div class="flex flex-row space-x-7 space-y-12  p-7">
       <img src="images\shoes\nikeair1.jpg" alt="" width="420px" height="580vh">
         <div class="p1">
         <h1>Contact Us</h1>
@@ -159,7 +159,7 @@
 
         </div>
 
-         <button type="submit" onclick="sendMail(),con()" class="btn" class="conn">Send</button> 
+         <button type="submit" onclick="sendMail(),con()" class="flex flex-row justify-center items-center text-white border border-2  border-solid rounded-lg bg-violet-700 w-44 h-9 mt-4">Send</button> 
          
       </form>
       </div>

@@ -35,24 +35,20 @@ document.getElementById('toggleButton').addEventListener('click', function () {
 
 //searchbar
 
-const searchBar = document.forms['search'].querySelector('input');
-searchBar.addEventListener('onclick', function (erre) {
-  const term = erre.target.value.toLowerCase();
-  const searches = list.getElementById('li');
-  Array.from(searches).forEach(function (searches) {
-    const title = searches.firstElementChild.textContent;
-    if (title.toLowerCase().indexOf(searches) != -1) {
-      search.style.display = 'block';
-    }
-    else {
-      books.style.display = 'none';
-    }
+  const searchBar = document.getElementById['search'].querySelector('input').value;
+  searchBar.addEventListener('keyup', function (apes) {
+    const term = apes.target.value.toLowerCase();
+    const searchs = list.getElementByTagName('li');
+    Array.from(searchs).forEach(function (search) {
+      const title = search.firstElementChild.textContent;
+      if (title.toLowerCase().indexOf(term) != -1) {
+        search.style.display = 'block';
+      }
+      else {
+        search.style.display = 'none';
+      }
+    })
   })
-})
-
-
-
-
 
 
 
